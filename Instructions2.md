@@ -18,7 +18,7 @@ User: **demo\@rubrik.lab**
 
 Password: **Welcome10!**
 
-![](images/image2.JPG?raw=true){width="5.256944444444445in" height="0.3819444444444444in"}Use the KEY Icon below to access the Credentials used in this Lab.
+![](images/image2.JPG?raw=true){width="5.256944444444445in" height="0.3819444444444444in"}Use the Resources Menu below to access the Credentials used in this Lab.
 
 # Table of Contents {#table-of-contents .TOCHeading}
 
@@ -108,7 +108,7 @@ In this task you become familiar with the layout of the Rubrik Dashboard.
 
     b.  ![](images/image3.png?raw=true){width="0.875in" height="0.5520833333333334in"} Password: **Welcome10!**
 
-> Anytime Credentials are used in the lab, you can use the "Keys" Icon in the interface to copy/paste credentials into the Console.
+> Anytime Credentials are used in the lab, you can use the Resources Menu in the interface to copy/paste credentials into the Console.
 
 4.  From the Windows desktop, launch the Chrome browser.
 
@@ -126,7 +126,7 @@ In this task you become familiar with the layout of the Rubrik Dashboard.
 
     f.  ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Password: **Welcome10!Rubrik**
 
-The key Icon in the interface can be used to cut and paste Usernames and Passwords.
+The Resources Menu in the interface can be used to cut and paste Usernames and Passwords.
 
 8.  Once authenticated, the Rubrik UI will default to the Dashboard page.
 
@@ -513,7 +513,7 @@ The bootstrap process continues. (this could take 10 to 20 minutes).
 >
 > Password: **Windows10!Rubrik**
 
-![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Click I Agree to accept the EULA. Enter the support Portal Email. Insert these by using the Keys function in the lab interface.
+![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Click I Agree to accept the EULA. Enter the support Portal Email. Insert these by using the Resources Menu in the lab interface.
 
 ![](images/image34.png?raw=true){width="6.156944444444444in" height="2.65625in"}
 
@@ -545,7 +545,7 @@ This Section contains the following task:
 
 6.  Enter the IP Address you used during the Bootstrap process in Task LINK HERE: **10.0.2.12**
 
-7.  ![](images/image3.png?raw=true){width="0.875in" height="0.5520833333333334in"}Enter the login credentials: "**admin**". Use the password you used in the Bootstrap process in Section H. "**Welcome10!Rubrik**" . Use the Key icon on the interface to paste credentials.
+7.  ![](images/image3.png?raw=true){width="0.875in" height="0.5520833333333334in"}Enter the login credentials: "**admin**". Use the password you used in the Bootstrap process in Section H. "**Welcome10!Rubrik**" . Use the Resources Menu on the interface to paste credentials.
 
 8.  Select **Add**.
 
