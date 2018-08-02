@@ -20,81 +20,83 @@ Password: **Welcome10!**
 
 ![](images/image2.JPG?raw=true){width="5.256944444444445in" height="0.3819444444444444in"}Use the Resources Menu below to access the Credentials used in this Lab.
 
-# Table of Contents {#table-of-contents .TOCHeading}
+# Table of Contents
 
-# [Introduction](#introduction) {#introduction .TOC1}
+# Introduction
 
 # [Task 1: Dashboard Walkthrough](#task-1-dashboard-walkthrough) {#task-1-dashboard-walkthrough .TOC1}
 
 # [Task 2: Connecting to the Local Infrastructure](#task-2-connecting-to-the-local-infrastructure) {#task-2-connecting-to-the-local-infrastructure .TOC1}
 
-## Task 2a: Configure Local Timezone
+### Task 2a: Configure Local Timezone
 
-## Task 2b: Connect to the vCenter Server
+### Task 2b: Connect to the vCenter Server
 
-## Task 2c: Setup an NFS Archive Location
+### Task 2c: Setup an NFS Archive Location
 
-## Task 2d: Setup AD integration and Authorize a user
+### Task 2d: Setup AD integration and Authorize a user
 
-## Task 2e: Install the Rubrik Backup Service on the Windows Host
+### Task 2e: Install the Rubrik Backup Service on the Windows Host
 
-## Task 2f: Add the Windows Host (connect to the Backup Service) 
+### Task 2f: Add the Windows Host (connect to the Backup Service) 
 
-## Task 2g: Bootstrap the Second Rubrik (optional)
+### Task 2g: Bootstrap the Second Rubrik (optional)
 
-## Task 2h. Replication Setup
+### Task 2h. Replication Setup
 
-## Task 2i. Setting up replication using a Static Address]
+### Task 2i. Setting up replication using a Static Address]
 
 # [Task 3: SLA Domains](#task-3-sla-domains) {#task-3-sla-domains}
 
-## Task 3a: Create an SLA Domain]
+### Task 3a: Create an SLA Domain
 
-## Task 3b: Apply an SLA Domain to a VMware Virtual Machine]
+### Task 3b: Apply an SLA Domain to a VMware Virtual Machine
 
-## Task 3c. Apply an SLA Domain to a SQL Server Database]
+### Task 3c. Apply an SLA Domain to a SQL Server Database
 
-## Task 3d. Apply an SLA Domain to NAS Share and Fileset]
+### Task 3d. Apply an SLA Domain to NAS Share and Fileset
 
-# [Task 4: Recovery 39](#task-4-recovery) {#task-4-recovery-39 .TOC1}
+# [Task 4: Recovery](#task-4-recovery) {#task-4-recovery .TOC1}
 
-## [Task 4a. Windows VM File Level Recovery 39](#task-4a.-windows-vm-file-level-recovery) {#task-4a.-windows-vm-file-level-recovery-39 .TOC2}
+### Task 4a. Windows VM File Level Recovery
 
-## [Task 4b. VM Recovery Live Mount 43](#_Toc514141164) {#task-4b.-vm-recovery-live-mount-43 .TOC2}
+### Task 4b. VM Recovery Live Mount
 
-## [Other Topics: Unmanaged Objects 48](#_Toc514141165) {#other-topics-unmanaged-objects-48 .TOC2}
+### Other Topics: Unmanaged Objects
 
-## [Task 4c. SQLServer Live Mount 49](#task-4c.-sqlserver-live-mount) {#task-4c.-sqlserver-live-mount-49 .TOC2}
+### Task 4c. SQLServer Live Mount
 
-# [Task 5: Reporting 55](#task-5-reporting) {#task-5-reporting-55 .TOC1}
+# [Task 5: Reporting](#task-5-reporting) {#task-5-reporting .TOC1}
 
-## [Task 5a. Envision 55](#task-5a.-envision) {#task-5a.-envision-55 .TOC2}
+### Task 5a. Envision
 
-## [Task 5b. Activities & Notifications 61](#task-5b.-activities-notifications) {#task-5b.-activities-notifications-61 .TOC2}
+### Task 5b. Activities & Notifications
 
-# [Task 6: Rubrik API 64](#task-6-rubrik-api) {#task-6-rubrik-api-64 .TOC1}
+# [Task 6: Rubrik API](#task-6-rubrik-api) {#task-6-rubrik-api .TOC1}
 
-## [Task 6a. API Documentation and Playground 64](#task-6a.-api-documentation-and-playground) {#task-6a.-api-documentation-and-playground-64 .TOC2}
+Task 6a. API Documentation and Playground
 
-## [Task 6b. Example Use Cases 67](#task-6b.-example-use-cases) {#task-6b.-example-use-cases-67 .TOC2}
+Task 6b. Example Use Cases
 
-# [Task 7: Rubrik API PowerShell examples 69](#task-7-rubrik-api-powershell-examples) {#task-7-rubrik-api-powershell-examples-69 .TOC1}
+# [Task 7: Rubrik API PowerShell examples](#task-7-rubrik-api-powershell-examples) {#task-7-rubrik-api-powershell-examples .TOC1}
 
-## [Task 7a. PowerShell: VMware Virtual Machine Live mount and unmount 70](#task-7a.-powershell-vmware-virtual-machine-live-mount-and-unmount) {#task-7a.-powershell-vmware-virtual-machine-live-mount-and-unmount-70 .TOC2}
+### Task 7a. PowerShell: VMware Virtual Machine Live mount and unmount
 
-## [Task 7b. PowerShell: SQL Live mount and Unmount 71](#task-7b.-powershell-sql-live-mount-and-unmount) {#task-7b.-powershell-sql-live-mount-and-unmount-71 .TOC2}
+### Task 7b. PowerShell: SQL Live mount and Unmount
 
-## [Task 7c. PowerShell: SQL OnDemand Snapshot 72](#task-7c.-powershell-sql-ondemand-snapshot) {#task-7c.-powershell-sql-ondemand-snapshot-72 .TOC2}
+### Task 7c. PowerShell: SQL OnDemand Snapshot
 
-## [Task 7d. PowerShell: NodeMonitoring 73](#task-7d.-powershell-nodemonitoring) {#task-7d.-powershell-nodemonitoring-73 .TOC2}
+### Task 7d. PowerShell: NodeMonitoring
 
-# [Appendix 1. Lab Infrastructure Specifics 74](#appendix-1.-lab-infrastructure-specifics) {#appendix-1.-lab-infrastructure-specifics-74 .TOC1}
+# [Appendix 1. Lab Infrastructure Specifics](#appendix-1.-lab-infrastructure-specifics) {#appendix-1.-lab-infrastructure-specifics .TOC1}
 
 # Introduction
 
 Rubrik's simple user interface is built on a RESTful API-driven framework with an HTML5 web user interface (UI). In Task 1 you will become familiar with the Rubrik Dashboard, in Task 2 you will connect to local resources and in task 3 you will configure **SLA Domains** to backup the local resources.
 
 # Task 1: Dashboard Walkthrough
+
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
 
 In this task you become familiar with the layout of the Rubrik Dashboard.
 
@@ -106,7 +108,7 @@ In this task you become familiar with the layout of the Rubrik Dashboard.
 
     a.  Username: **demo@rubrik.lab**
 
-    b.  ![](images/image3.png?raw=true){width="0.875in" height="0.5520833333333334in"} Password: **Welcome10!**
+    b.  Password: **Welcome10!**
 
 > Anytime Credentials are used in the lab, you can use the Resources Menu in the interface to copy/paste credentials into the Console.
 
@@ -124,7 +126,7 @@ In this task you become familiar with the layout of the Rubrik Dashboard.
 
     e.  Username: **admin**
 
-    f.  ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Password: **Welcome10!Rubrik**
+    f.  Password: **Welcome10!Rubrik**
 
 The Resources Menu in the interface can be used to cut and paste Usernames and Passwords.
 
@@ -202,7 +204,7 @@ a.  Select **Continue** when the confirmation window is displayed.
 
 > Username: **demo@rubrik.lab**
 >
-> ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Password: **Welcome10!**
+> Password: **Welcome10!**
 
 8.  Click the **Add** Button in the bottom left corner.
 
@@ -222,7 +224,7 @@ a.  Select **Continue** when the confirmation window is displayed.
 
     a.  Username: **admin **
 
-    b.  ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Password: **Welcome10!Rubrik**
+    b.  Password: **Welcome10!Rubrik**
 
 2.  From the top of the UI, click on the settings icon ![](images/image4.png?raw=true){width="0.33055555555555555in" height="0.2696981627296588in"}.
 
@@ -306,7 +308,7 @@ g.  ![](images/image9.jpeg){width="3.5034722222222223in" height="4.1423611111111
 
 > Username: **demo@rubrik.lab**
 >
-> ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Password: **Welcome10!**
+> Password: **Welcome10!**
 
 ## Task 2e: Install the Rubrik Backup Service on the Windows Host
 
@@ -413,7 +415,7 @@ The installer can be found by attempting to add a Windows and then clicking the 
 
 h.  Click **Apply. **
 
-i.  ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}At the confirmation screens click **OK**.
+i.  At the confirmation screens click **OK**.
 
 j.  ![](images/image24.JPG?raw=true){width="3.301388888888889in" height="3.798611111111111in"}Click **OK** on the Rubrik Backup Service Properties window.
 
@@ -447,7 +449,7 @@ This lab contains two Rubrik Appliances. One appliance is preconfigured. It has 
 
 One appliance is not configured and needs to be bootstrapped. This can be a standalone operation or the Rubrik can be used to setup Replication between two Rubrik systems.
 
-1.  ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Using the browser log in to the Esx Server. The IP address is **https://10.0.1.22**. Login is "**root**" and the password is "**Welcome10!**"
+1.  Using the browser log in to the Esx Server. The IP address is **https://10.0.1.22**. Login is "**root**" and the password is "**Welcome10!**"
 
 2.  Expand the hierarchical tree of "Virtual Machines", select the Rubrik Edge virtual machine named "RubrikReplication".
 
@@ -515,7 +517,7 @@ The bootstrap process continues. (this could take 10 to 20 minutes).
 >
 > Password: **Windows10!Rubrik**
 
-![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Click I Agree to accept the EULA. Enter the support Portal Email. Insert these by using the Resources Menu in the lab interface.
+  Click I Agree to accept the EULA. Enter the support Portal Email. Insert these by using the Resources Menu in the lab interface.
 
 ![](images/image34.png?raw=true){width="6.156944444444444in" height="2.65625in"}
 
@@ -547,7 +549,7 @@ This Section contains the following task:
 
 6.  Enter the IP Address you used during the Bootstrap process in Task LINK HERE: **10.0.1.12**
 
-7.  ![](images/image3.png?raw=true){width="0.875in" height="0.5520833333333334in"}Enter the login credentials: "**admin**". Use the password you used in the Bootstrap process in Section H. "**Welcome10!Rubrik**" . Use the Resources Menu on the interface to paste credentials.
+7.  Enter the login credentials: "**admin**". Use the password you used in the Bootstrap process in Section H. "**Welcome10!Rubrik**" . Use the Resources Menu on the interface to paste credentials.
 
 8.  Select **Add**.
 
