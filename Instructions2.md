@@ -1,8 +1,8 @@
 # 
 
-Project Oasis Demo Service
+# Project Oasis Demo Service
 
-Foundations Lab Guide
+# Foundations Lab Guide
 
 v.Draft6 5/10/2018
 
@@ -148,7 +148,7 @@ The Resources Menu in the interface can be used to cut and paste Usernames and P
 
 # Task 2: Connecting to the Local Infrastructure
 
-In this task you will perform several initial setup items to connect to the local infrastructure:
+In this task you will perform several initial setup items to connect to the local infrastructure.  NOTE: skip if running a preconfigured lab
 
 Task 2a: Configure Timezone
 
@@ -244,7 +244,7 @@ a.  Select **Continue** when the confirmation window is displayed.
 
 e.  Encryption Password: **Welcome10!Rubrik**
 
-f.  Re-Enter Encryption Password: **Welcome10!Rubrik!**
+f.  Re-Enter Encryption Password: **Welcome10!Rubrik**
 
 g.  ![](images/image9.jpeg){width="3.5034722222222223in" height="4.142361111111111in"}Authentication Type: leave default
 
@@ -441,7 +441,7 @@ j.  ![](images/image24.JPG?raw=true){width="3.301388888888889in" height="3.79861
 
 NOTE: The Bootstrap Process can take from 10 to 20 minutes.
 
-This lab contains two Rubrik Appliances. One appliance is preconfigured. It has been bootstrapped with a management IP of 10.0.2.10. Chrome contains a link on the Bookmark Bar for the 1^st^ Rubrik Appliance.
+This lab contains two Rubrik Appliances. One appliance is preconfigured. It has been bootstrapped with a management IP of 10.0.1.10. Chrome contains a link on the Bookmark Bar for the 1^st^ Rubrik Appliance.
 
 One appliance is not configured and needs to be bootstrapped. This can be a standalone operation or the Rubrik can be used to setup Replication between two Rubrik systems.
 
@@ -483,7 +483,7 @@ The Cluster configuration section appears.
 
 4.  In NTP Servers, type a comma-separated list of NTP servers. Take the default value, **pool.ntp.org**, the virtual cluster of timeservers provide for public use by the NTP Pool Project, and press Enter.
 
-5.  In Management Gateway, type the IP address assigned to the management network gateway. Type **10.0.2.254** and press Enter.
+5.  In Management Gateway, type the IP address assigned to the management network gateway. Type **10.0.1.1** and press Enter.
 
 6.  In Management Subnet Mask, type the subnet mask for the management network. Type **255.255.255.0** and press Enter.
 
@@ -491,7 +491,7 @@ The Cluster configuration section appears.
 
 The Node Configuration section appears.
 
-1.  ![](images/image28.png?raw=true){width="7.66875in" height="2.2708333333333335in"}![](images/image32.png?raw=true){width="4.5125in" height="2.6805555555555554in"}In Management IP, type the IP address assigned to the management network interface of Rubrik Edge. Type **10.0.2.12** and Press Enter**.**
+1.  ![](images/image28.png?raw=true){width="7.66875in" height="2.2708333333333335in"}![](images/image32.png?raw=true){width="4.5125in" height="2.6805555555555554in"}In Management IP, type the IP address assigned to the management network interface of Rubrik Edge. Type **10.0.1.12** and Press Enter**.**
 
 The Rubrik CLI starts the system set up process. The Bootstrap Progress section appears and the CLI displays progress messages.
 
@@ -505,7 +505,7 @@ The bootstrap process continues. (this could take 10 to 20 minutes).
 
 2.  Do not continue with Registration in the Console window. Close down any Console screens.
 
-3.  Using the Chrome Browser login to the Bootstrapped Rubrik System using the Management IP Address: **https://10.0.2.12**
+3.  Using the Chrome Browser login to the Bootstrapped Rubrik System using the Management IP Address: **https://10.0.1.12**
 
 4.  Login to the Rubrik system using the credentials that you setup during Bootstrap.
 
@@ -531,7 +531,7 @@ This Section contains the following task:
 
 ##  Task 2i. Setting up replication using a Static Address
 
-1.  Login in to the web UI on the Rubrik Cluster at **10.0.2.10** or select the Bookmark named **Rubrik** on the Chrome Bookmarks Bar.
+1.  Login in to the web UI on the Rubrik Cluster at **10.0.1.10** or select the Bookmark named **Rubrik** on the Chrome Bookmarks Bar.
 
 2.  Click on the top bar of the web UI. ![](images/image4.png?raw=true){width="0.30625in" height="0.3in"}
 
@@ -543,7 +543,7 @@ This Section contains the following task:
 
 5.  Select Private Network.
 
-6.  Enter the IP Address you used during the Bootstrap process in Task LINK HERE: **10.0.2.12**
+6.  Enter the IP Address you used during the Bootstrap process in Task LINK HERE: **10.0.1.12**
 
 7.  ![](images/image3.png?raw=true){width="0.875in" height="0.5520833333333334in"}Enter the login credentials: "**admin**". Use the password you used in the Bootstrap process in Section H. "**Welcome10!Rubrik**" . Use the Resources Menu on the interface to paste credentials.
 
@@ -606,7 +606,7 @@ To create a Local SLA Domain:
 
 3.  The Create SLA Domain window is displayed use the following to complete the form:
 
-    a.  **SLA Domain Name:** Demo1Hr
+    a.  **SLA Domain Name:** Demo1Hr,  or name of your choosing.
 
 > You may enter any acceptable Domain Name, but "Demo1Hr" will be referenced throughout this lab guide. A best practice would be for this name to describe in summary the contents of the SLA.
 
@@ -1327,7 +1327,7 @@ The Blog link is included as a source for the scripts. The Stop Script automatic
 
 # Appendix 1. Lab Infrastructure Specifics
 
-The following are the host names, IP addresses and login credentials for the Infrastructure Servers and VMs in the Lab. The VMs (and any new VMs), are setup for DHCP networking in the range of 10.0.2.50 to 10.0.2.80.
+The following are the host names, IP addresses and login credentials for the Infrastructure Servers and VMs in the Lab. The VMs (and any new VMs), are setup for DHCP networking in the range of 10.0.1.100 to 10.0.1.254.
 
 <table>
 <thead>
@@ -1351,7 +1351,7 @@ The following are the host names, IP addresses and login credentials for the Inf
 <tr class="even">
 <td>Rubrik41p1</td>
 <td>Rubrik 4.1.0-p1</td>
-<td>10.0.2.10</td>
+<td>10.0.1.10</td>
 <td><p>demo@rubrik.lab /</p>
 <p>Welcome10!</p></td>
 <td>admin / Welcome10!Rubrik</td>
@@ -1359,7 +1359,7 @@ The following are the host names, IP addresses and login credentials for the Inf
 <tr class="odd">
 <td>ReplicationRubrik</td>
 <td>Rubrik 4.1.0-p1</td>
-<td>10.0.2.12</td>
+<td>10.0.1.12</td>
 <td><p>demo@rubrik.lab /</p>
 <p>Welcome10!</p></td>
 <td>admin / Welcome10!Rubrik</td>
@@ -1412,7 +1412,7 @@ The following are the host names, IP addresses and login credentials for the Inf
 <tr class="even">
 <td>Win2016-vm</td>
 <td>Windows 2016 Datacenter on ESXi</td>
-<td>10.0.2.53 dhcp</td>
+<td>10.0.1.x dhcp</td>
 <td><p>demo@rubrik.lab /</p>
 <p>Welcome10!</p></td>
 <td>administrator / Welcome10!</td>
@@ -1420,14 +1420,14 @@ The following are the host names, IP addresses and login credentials for the Inf
 <tr class="odd">
 <td>Cents07-vm</td>
 <td>Centos 7 Linux on ESXi</td>
-<td>10.0.2.52 dhcp</td>
+<td>10.0.1.x dhcp</td>
 <td>NA</td>
 <td>root / Welcome10!</td>
 </tr>
 <tr class="even">
 <td>Ubuntu14-vm</td>
 <td>Ubuntu 14</td>
-<td>10.0.2.50 dhcp</td>
+<td>10.0.1.x dhcp</td>
 <td>NA</td>
 <td>demo / Welcome10!</td>
 </tr>
