@@ -28,33 +28,33 @@ Password: **Welcome10!**
 
 # [Task 2: Connecting to the Local Infrastructure](#task-2-connecting-to-the-local-infrastructure) {#task-2-connecting-to-the-local-infrastructure .TOC1}
 
-## [Task 2a: Configure Local Timezone]
+## Task 2a: Configure Local Timezone
 
-## [Task 2b: Connect to the vCenter Server]
+## Task 2b: Connect to the vCenter Server
 
-## [Task 2c: Setup an NFS Archive Location]
+## Task 2c: Setup an NFS Archive Location
 
-## [Task 2d: Setup AD integration and Authorize a user]
+## Task 2d: Setup AD integration and Authorize a user
 
-## [Task 2e: Install the Rubrik Backup Service on the Windows Host 15](#_Toc514141152) {#task-2e-install-the-rubrik-backup-service-on-the-windows-host-15 .TOC2}
+## Task 2e: Install the Rubrik Backup Service on the Windows Host
 
-## [Task 2f: Add the Windows Host (connect to the Backup Service). 19](#task-2f-add-the-windows-host-connect-to-the-backup-service.) {#task-2f-add-the-windows-host-connect-to-the-backup-service.-19 .TOC2}
+## Task 2f: Add the Windows Host (connect to the Backup Service) 
 
-## [Task 2g: Bootstrap the Second Rubrik (optional) 21](#task-2g-bootstrap-the-second-rubrik-optional) {#task-2g-bootstrap-the-second-rubrik-optional-21 .TOC2}
+## Task 2g: Bootstrap the Second Rubrik (optional)
 
-## [Task 2h. Replication Setup 25](#task-2h.-replication-setup) {#task-2h.-replication-setup-25 .TOC2}
+## Task 2h. Replication Setup
 
-## [Task 2i. Setting up replication using a Static Address 26](#task-2i.-setting-up-replication-using-a-static-address) {#task-2i.-setting-up-replication-using-a-static-address-26 .TOC2}
+## Task 2i. Setting up replication using a Static Address]
 
-# [Task 3: SLA Domains 27](#task-3-sla-domains) {#task-3-sla-domains-27 .TOC1}
+# [Task 3: SLA Domains](#task-3-sla-domains) {#task-3-sla-domains}
 
-## [Task 3a: Create an SLA Domain 28](#task-3a-create-an-sla-domain) {#task-3a-create-an-sla-domain-28 .TOC2}
+## Task 3a: Create an SLA Domain]
 
-## [Task 3b: Apply an SLA Domain to a VMware Virtual Machine 30](#task-3b-apply-an-sla-domain-to-a-vmware-virtual-machine) {#task-3b-apply-an-sla-domain-to-a-vmware-virtual-machine-30 .TOC2}
+## Task 3b: Apply an SLA Domain to a VMware Virtual Machine]
 
-## [Task 3c. Apply an SLA Domain to a SQL Server Database 31](#task-3c.-apply-an-sla-domain-to-a-sql-server-database) {#task-3c.-apply-an-sla-domain-to-a-sql-server-database-31 .TOC2}
+## Task 3c. Apply an SLA Domain to a SQL Server Database]
 
-## [Task 3d. Apply an SLA Domain to NAS Share and Fileset 33](#task-3d.-apply-an-sla-domain-to-nas-share-and-fileset) {#task-3d.-apply-an-sla-domain-to-nas-share-and-fileset-33 .TOC2}
+## Task 3d. Apply an SLA Domain to NAS Share and Fileset]
 
 # [Task 4: Recovery 39](#task-4-recovery) {#task-4-recovery-39 .TOC1}
 
@@ -147,6 +147,8 @@ The Resources Menu in the interface can be used to cut and paste Usernames and P
 6.  From the **System** pane, click on the **See more** link. This section details the specs of the Rubrik cluster as well as some performance details.
 
 # Task 2: Connecting to the Local Infrastructure
+
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
 
 In this task you will perform several initial setup items to connect to the local infrastructure.  NOTE: skip if running a preconfigured lab
 
@@ -553,6 +555,8 @@ After a successful test, the source Rubrik cluster adds the replication relation
 
 # Task 3: SLA Domains
 
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
+
 The SLA Domain unifies data protection policies under a single policy engine. It provides a configurable set of policies that can be applied to all objects protected by Rubrik, whether groups of virtual machines, applications, or hosts to achieve specific data protection objectives.
 
 The SLA Domains feature represents an easy-to-configure container for data protection policies. The following table provides an overview of those policies.
@@ -745,6 +749,8 @@ In this module you will assign an SLA to a NAS Server / NAS Share (NFS) and defi
 ## 
 
 # Task 4: Recovery
+
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
 
 With Google-like search, Rubrik eliminates the file search complexity inherent in legacy solutions by introducing consumer-grade file search that delivers query results instantly. As the user types the query, Rubrik expedites the query by displaying suggested search results with auto-complete functionality. The user can instantly locate specific versions of files across time and locations for all VMs, applications, and file systems - no matter where the data resides (on-premises or in the cloud).
 
@@ -1043,6 +1049,8 @@ A confirmation message appears.
 
 # Task 5: Reporting
 
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
+
 It is important to stay informed and laser-focused on the horizon ahead when protecting your critical data.
 
 Rubrik Envision provides a compass view of your cluster by unlocking fast, actionable insights across a multi-cloud environment for business intelligence at scale. Envision delivers analytics on data management, compliance, and capacity utilization across your entire infrastructure - on-premises, at the edge, and in the cloud. You can instantly create and share rich data visualizations and customized reports to drive your operational efficiencies. You can even build your own dashboards, enable self-service access, and create custom reporting workflows with a responsive, HTML5-based interface and an API-first architecture.
@@ -1201,6 +1209,8 @@ Feel free to explore other options on these screens and trying various searches 
 
 # Task 6: Rubrik API 
 
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
+
 One exciting change slowly percolating throughout the data center is the use of RESTful (Representational State Transfer) APIs to control operations. Rather than having to learn a large swath of DSL (domain specific languages) for each endpoint, the use of a RESTful architecture means any valid language that can make API calls is available to you and your team. This results in a simpler model for data center architecture and an increase in opportunities for automation and orchestration.
 
 The Rubrik REST API provides a RESTful interface for working with Rubrik clusters and Rubrik Edge virtual appliances. The Rubrik REST API can be used to query, configure, and control nearly all of the operations of the Rubrik software.
@@ -1265,6 +1275,8 @@ Be sure to check out Rubrik's Github page for more!
 
 # Task 7: Rubrik API PowerShell examples 
 
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
+
 The scripts are provided as unsupported examples of using the Rubrik API through Powershell Calls. The scripts demonstrate:
 
 -   Live Mount and Unmount of VMware Virtual Machines
@@ -1326,6 +1338,8 @@ The Blog link is included as a source for the scripts. The Stop Script automatic
 #  
 
 # Appendix 1. Lab Infrastructure Specifics
+
+## [Return to the Table of Contents] (#table-of-contents) {#table-of-contents}
 
 The following are the host names, IP addresses and login credentials for the Infrastructure Servers and VMs in the Lab. The VMs (and any new VMs), are setup for DHCP networking in the range of 10.0.1.100 to 10.0.1.254.
 
