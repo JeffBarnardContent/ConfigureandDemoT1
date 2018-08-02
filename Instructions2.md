@@ -14,7 +14,7 @@ Lab Topology
 
 **Lab Entry Desktop Jumpbox Server Login**
 
-User: **demo\@rubrik.lab**
+User: **demo@rubrik.lab**
 
 Password: **Welcome10!**
 
@@ -104,7 +104,7 @@ In this task you become familiar with the layout of the Rubrik Dashboard.
 
 3.  Login to the Windows desktop using the following credentials:
 
-    a.  Username: **demo\@rubrik.lab**
+    a.  Username: **demo@rubrik.lab**
 
     b.  ![](images/image3.png?raw=true){width="0.875in" height="0.5520833333333334in"} Password: **Welcome10!**
 
@@ -198,7 +198,7 @@ a.  Select **Continue** when the confirmation window is displayed.
 
 7.  This vCenter is integrated with AD. In the vCenter login type:
 
-> Username: **demo\@rubrik.lab**
+> Username: **demo@rubrik.lab**
 >
 > ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Password: **Welcome10!**
 
@@ -302,7 +302,7 @@ g.  ![](images/image9.jpeg){width="3.5034722222222223in" height="4.1423611111111
 
 14. Login using the credentials you just created: Click on **Sign In**
 
-> Username: **demo\@rubrik.lab**
+> Username: **demo@rubrik.lab**
 >
 > ![](images/image3.png?raw=true){width="0.5888363954505687in" height="0.3715277777777778in"}Password: **Welcome10!**
 
@@ -403,7 +403,7 @@ The installer can be found by attempting to add a Windows and then clicking the 
 
 11. Enter the following:
 
-> Username: **demo\@rubrik.lab**
+> Username: **demo@rubrik.lab**
 >
 > Password: **Welcome10!**
 >
