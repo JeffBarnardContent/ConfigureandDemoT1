@@ -46,7 +46,7 @@ Password: **Welcome10!**
 
 ### Task 2i. Setting up replication using a Static Address]
 
-# [Task 3: SLA Domains](#task-3-sla-domains) {#task-3-sla-domains}
+# [Task 3: SLA Domains](#task-3-sla-domains) {#task-3-sla-domains .TOC1}
 
 ### Task 3a: Create an SLA Domain
 
@@ -88,7 +88,7 @@ Task 6b. Example Use Cases
 
 ### Task 7d. PowerShell: NodeMonitoring
 
-# [Appendix 1. Lab Infrastructure Specifics](#appendix-1.-lab-infrastructure-specifics) {#appendix-1.-lab-infrastructure-specifics .TOC1}
+# [Appendix 1: Lab Infrastructure Specifics](#appendix-1-lab-infrastructure-specifics) {#appendix-1-lab-infrastructure-specifics .TOC1}
 
 # Introduction
 
