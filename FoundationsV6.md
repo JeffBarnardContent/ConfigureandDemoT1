@@ -618,7 +618,7 @@ To create a Local SLA Domain:
 
 b.  **Service Level Agreement -&gt; Snapshot -&gt; Take Snapshots:** In this example and based on the short-term nature of this lab exercise, choose a minimum of taking a Snapshot every 1 hour. You may fill out the remaining SLA fields as you like.
 
-    ![](images/image40.png?raw=true){width="5.150179352580928in" height="1.9912926509186353in"}
+![](images/image40.png?raw=true){width="5.150179352580928in" height="1.9912926509186353in"}
 
 <!-- -->
 
